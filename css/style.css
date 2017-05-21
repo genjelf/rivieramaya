@@ -1,0 +1,850 @@
+/* -------- 0. RESET -------- */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* { box-sizing:border-box;}
+
+
+
+
+/*Fuentes*/
+html{
+
+	 font-family: 'Noto Serif', serif;
+	 font-size: 16px;
+}
+
+/*general*/
+#barraSupBanner{
+	display: none;
+}
+
+body{
+	
+	background-color: #adcd90;
+}
+
+*{
+
+	box-sizing: border-box;
+}
+
+.contenedorP{
+
+        width: 1024px;
+        margin: 0 auto;
+        background-color: #ecfafa;
+    }
+.contentmain{
+     
+      width: 910px;
+        margin: 0 auto;
+        background-color: #fff;
+
+}
+.clear{
+
+	clear: both;
+}
+
+.colordiv{
+
+	background-color: #fbfca9;
+}
+
+.colortexto{
+
+	color: #972832;
+}
+
+.flex{
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*banner*/
+
+#banner{
+/*
+    margin-top: 15px;*/
+    width: 100%;
+    height: 443px;
+    background: url("../images/banner.jpg") center center;
+    background-size: cover;
+    padding-top: 28px;
+
+}
+
+#barra-banner{
+
+	
+	background-color: rgba(243,250,250,0.67);
+	border-top: 4px solid #4fb382;
+	border-bottom: 4px solid #4fb382;
+	height: 100px;
+    padding-top: 10px;
+
+
+}
+
+#datoscontact{
+    
+    padding-top: 5px;
+	text-align: center;
+}
+
+#logobanner{
+	
+text-align: right;
+
+}
+
+
+.colordabarra{
+	color: #ff0000;
+	font-size: 1rem;
+	margin: 0;
+	line-height: 20px;
+}
+
+
+.numerotele{
+	font-size: 1.8rem;
+	margin: 0;
+	margin-bottom: 6px;
+	
+
+}
+    /*NAVEGACION *//*
+    +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.flex-nav{
+
+	display: flex;
+    align-items: center;
+}
+
+.flex-containerN {
+    
+     display: flex;
+    justify-content: space-around;
+    
+}
+
+#navegacion{
+
+	height: 42px;
+	background-color: #009045;
+	margin-top: 0;
+}
+
+    #menu-principal{
+
+	list-style-type: none;
+	width: 100%;
+
+}
+
+#menu-principal li{
+	display: inline-block;
+	
+
+	
+	
+}
+#menu-principal li a{
+
+	text-transform:uppercase;
+	text-decoration: none;
+	font-size: 0.9rem;
+	color: #ffff00;
+}
+
+#menu-principal li a:hover{
+
+color:#fff;
+}
+
+
+
+/*main
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+#parra-wel{
+		    margin-top: 20px;
+			padding-top: 8px;
+			line-height: 25px;
+}
+
+
+#welcome, #video{
+	
+			margin-top: 30px;
+			height: 248px;
+			width: calc(50% - 20px); 
+	
+}
+
+#video-cocina{
+
+           width: 100%;
+           height:auto;
+ }
+
+ #video-cocina {}
+
+#video{
+	    
+	        margin-left: 20px;  
+	   
+	   }
+
+#welcome{
+		    text-align: center;
+			margin-right: 20px;
+			padding-right: 24px;
+			padding-left: 24px;
+
+       }
+
+
+#tibien{
+
+			font-size: 2.12rem;
+			text-align: center;
+			margin-top: 25px;
+			margin-bottom: 20px;
+}
+
+#lineawel{
+
+			height: 8px;
+			width: 100%;
+			background-color: #dfb365;
+}
+
+
+/*sección menu eventos cócteles*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+#section-menu, #section-eventos{
+		    margin-right: 40px;
+			
+}
+
+#section-menu, #section-eventos, #section-coctel{
+
+			height: 290px;
+			width: 3px;
+			margin-top: 34px;
+			text-align: center;
+			width: calc(33.33% - 26.7px);
+
+}
+
+.ti-menu{
+
+			font-size: 1.25rem;
+			margin-bottom: 10px;
+			margin-top: 10px;
+}
+
+.img-menu{
+
+			height: auto;
+			width: 100%;
+			margin-bottom: 5px;
+}
+
+.p-menu{
+
+			font-size: 1.125rem;
+			margin-top: 4px;
+
+}
+
+.p-menu a{
+			text-decoration: none;
+			color: #972832;
+
+}
+/*parte final main*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#barra-m-e-c{
+
+			width: 100%;
+			height: 12px;
+			background-color: #dfb365;
+			margin-top: 30px;
+}
+
+#promo{
+			margin-top: 20px;
+			font-weight: 700i;
+			font-size: 1.5rem;
+			text-align: center;
+
+}
+#numPromo{
+
+			font-size: 1.875rem;
+			margin-top: 10px;
+			text-align: center;
+			margin-bottom: 15px;
+}
+
+#botonEscr, #btn-escr{
+			margin:auto;
+			height: 42px;
+			width: 196px;
+			margin-bottom: 20px;
+}
+
+#btn-escr{
+
+			border:5px solid #dfb365;
+			margin: auto;
+			text-align: center;
+			font-size: 1.125rem;
+	
+}
+#Escr-btn{
+		    margin: 0;
+		    padding-top: 7px;
+
+
+}
+#Escr-btn a{
+			text-decoration: none;
+			font-size: 1.125rem;
+}
+/*footer*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#footer-sup{
+		    background: url("../images/imgfooter.jpg") center center;
+			width: 100%;
+			height: 280px;
+			margin: 0;
+
+}
+#footer-inf{
+
+			background-color: #009045;
+			height: 45px;
+			width: 100%;
+}
+
+#copy{
+
+			text-align: center;
+			color:#ffff00;
+			margin: 0;
+			padding-top: 15px;
+}
+#footercontent{
+			margin-bottom: 0;
+			margin-top: 0;
+}
+
+#iconosSocial{
+
+			margin-top: 0;
+			margin-bottom: 0;
+			list-style-type: none;
+			text-align: center;
+			padding-top: 70px;
+			line-height: 60px;
+
+}
+
+#iconosSocial li a{
+     
+		     text-decoration: none;
+		     font-size: 2.5rem;
+		     color: #272727;}
+
+#cont-foot, #logofooter, #iconos{
+
+	     	width: 33.33%;
+	     	height: 280px;
+	     	margin: 0;
+     }
+#logofooter figure img{
+             margin: auto;
+}
+#logofooter{
+
+			padding-top: 81px;
+			/*padding-left: 52px;*/
+}
+
+#direc,#correorm{
+		    line-height: 20px;
+			font-size: 0.875rem;
+			font-weight: 700;
+			text-align:center;
+			padding-top: 85px;
+}
+
+#direc a{
+			color: #272727;
+}
+#correorm{
+			padding-top: 0;
+			margin-top: 55px;
+			text-align: left;
+
+}
+
+
+/*BreakPoint ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width: 1000px){
+
+			.contenedorP{
+			       width: 100%;
+			    }
+
+			.contentmain{
+			     width: 100%;
+			     padding-left: 10px;
+			     padding-right: 10px;
+			}
+
+			#welcome{
+		   		height: auto;
+			}
+
+			#video-cocina{
+               max-width: 100%;
+			    width: 100%;
+			    height:100%;
+			 }
+
+			 #section-menu, #section-eventos, #section-coctel{
+				padding-bottom: 10px;
+				height: auto;
+
+			}
+			#section-menu, #section-eventos, #section-coctel p a{
+				line-height: 22px;
+			}
+
+}
+
+@media screen and (max-width: 870px){
+
+
+		#emailFo{
+			display: block;
+			text-align: center;
+		}
+
+		#correorm{
+			text-align: center;
+		}
+
+		.ti-menu{
+
+			border-top: 30px;
+			border-bottom: 30px;
+		}
+
+		#section-menu, #section-eventos, #section-coctel{
+			height: auto;
+		}
+}
+
+
+@media screen and (max-width: 761px){
+
+		.ti-menu{
+			
+			font-size: 1rem;
+		}
+		.p-menu{
+			font-size: 0.950rem;
+		}
+
+		#section-menu, #section-eventos, #section-coctel{
+			height: auto;
+		}
+		#welcome{
+			padding-bottom: 10px;}
+		#promo{
+	        line-height: 30px;
+              }
+
+}
+@media screen and (max-width: 640px){
+
+.ti-menu{
+	font-size: 0.9rem;
+}
+#parra-wel{
+	margin-top: 10px;
+	padding-top: 0;
+}
+
+}
+
+
+@media screen and (max-width: 600px){
+
+        
+
+		body{
+			background-color: #fbfca9;
+		}
+
+		.flex-banner{
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.flex{
+            display: block;
+		     }
+
+		/*general*/
+		.contenedorP{
+			width: 100%;
+			background-color: #fbfca9;
+
+		}
+		.contentmain{
+			width: 100%;
+			background-color: #fbfca9;
+		}
+		/*header*/
+
+		#Logom{
+			width: 50%;
+		}
+
+		#Logom figure img{
+		margin:auto;
+
+		}
+		#search, #menum{
+		width: 25%;
+		text-align: center;
+		padding-top: 2px;
+		}
+
+		.flex-item-header {
+		    display: flex;
+		    justify-content: center;
+		}
+		#bar-search-Check{
+			display: none;
+		}
+		#bar-search{
+			width: 100%;
+			position: absolute;
+			top:50px;
+			left: 0;
+			height: 40px;
+			background-color: rgba(231,232,118,0.8);		
+			color:#000;
+			text-align: center;
+			font-size: 1rem;
+			transform: translateX(-100%);
+            transition: all 0.3s;
+
+		}
+		#bar-search-Check:checked ~ #bar-search{
+			transform: translateX(0%);
+		}
+
+		#search-bars{
+			cursor: pointer;
+			position: absolute;
+			right: 135px;
+			top: 2px;
+		}
+       
+		/*banner*/
+
+        #banner{
+
+			width: 100%;
+		    height: 265px;
+		    background: url("../images/bannermovil.jpg") center center;
+		    background-size: cover;
+		}
+		#barraSupBanner{
+		    display: flex;
+			height: 50px;
+			width: 100%;
+			background-color: #e7e876;
+			border-bottom:10px solid #972832;
+		}
+
+
+		/*Navegacion*/
+		#navegacion{
+			display: none;
+		}
+		#barra-banner{
+			display: none;
+		}
+
+		#btn-menu{
+			display: none;
+		}
+		#bars{
+			cursor: pointer;
+			position: absolute;
+			right: 25px;
+			top: 4px;
+		}
+		.menu-mo{          /*K*/
+			display: block;
+			position: absolute;
+			top: 50px;
+			left: 0;
+			width: 100%;
+			transform: translateX(-100%);
+           transition: all 0.3s;
+			
+			
+		}
+		.menu-mo li{    /*k*/
+			background: #adcd90;
+			 padding: 10px 0 10px 0;
+			 text-transform: uppercase;
+		}
+		.menu-mo li:hover{    /*K*/
+			background: rgba(0,0,0,0.5);
+		}
+		.menu-mo a{           /*K*/
+		    color: #fff;
+		    text-decoration: none;
+		    margin-top: 5px;
+		    margin-left: 10px;
+
+		}
+       #btn-menu:checked ~ .menu-mo {        /*K*/
+          transform: translateX(0%);
+          
+       }
+
+		/*bienvenida*/
+		#welcome{
+			display: block;
+			width: 100%;
+			height: 230px;
+			margin:0;
+			
+		}
+
+        #parra-wel{
+		    padding-left: 10px;
+			padding-right: 10px;
+
+		}
+
+		#lineawel{
+			width: 200px;
+			margin:auto;
+		}
+		#lineawel, #lineBottomPa{
+
+			background-color: #009045;
+			height: 5px;
+			margin-top: 10px;
+		}
+
+		/*video*/
+
+		#video{
+          display: none;
+		}
+
+		/*Secciones*/
+
+		#section-menu, #section-eventos, #section-coctel{
+
+			width: 100%;
+			height: auto;
+			text-align: center;
+			margin:80px 0px 80px 0px;
+			padding: 0 10px 0 10px;
+
+		}
+
+		.lineaSection{
+		    
+		    height: 5px;
+			width: 200px;
+			margin:auto;
+			background-color: #009045;
+			margin-bottom: 20px;
+		}
+
+		.p-menu{
+            line-height: 25px;
+		}
+
+		/*promo*/
+		#btn-escr{
+
+			border:5px solid #009045;
+			height: 42px;
+			width: 196px;
+			margin:auto;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+
+
+		#barra-m-e-c{
+			background-color: #972832;
+		}
+
+		
+
+		/*footer*/
+
+		 .item-flex:nth-child(1) {
+		          order: 1;
+		      }
+		      .item-flex:nth-child(2) {
+		          order: 0;
+		      }
+		      .item-flex:nth-child(3) {
+		          order: 2;
+		      }
+
+
+		#cont-foot,#logofooter, #iconos{
+
+			width: 100%;
+			text-align: center;
+		}
+
+		#cont-foot{
+
+			height: 200px;
+		}
+
+		#iconos ul li{
+			display: inline-block;
+			
+		}
+
+		#iconos{
+
+			height: 80px;
+		}
+		#itwitter{
+			margin-left: 35px;
+		}
+		#ifacebook{
+			margin-right: 35px;
+		}
+
+		#logofooter{
+
+		height: 200px; 
+		padding:0;
+		padding-top: 40px;
+		text-align:center;
+		}
+		#logofooter p{
+			margin: auto;
+			text-align: center;
+			margin-top: 45px;
+
+		}
+
+		#footer-sup{
+			height: auto;
+			background-image: none;
+			background-color: #a0cf79;
+		}
+
+		#footer-inf{
+			height: 60px;
+		}
+
+		#correorm{
+			padding: 0;
+			
+		}
+
+		#iconosSocial{
+			padding: 0;
+		}
+
+		#footer-inf{
+			background-color: #a0cf79;
+		}
+
+		#copy{
+
+			color:#972832;
+		}
+
+		.flex-footer {
+		      display: flex;
+		      flex-direction: column;
+		}
+
+		#direc{
+			padding-top: 50px;
+		}
+
+}
